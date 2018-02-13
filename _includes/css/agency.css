@@ -468,7 +468,7 @@ section h3.section-subheading {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 40px;
+    left: 20px;
     width: 2px;
     margin-left: -1.5px;
     background-color: #f1f1f1;
@@ -476,8 +476,8 @@ section h3.section-subheading {
 
 .timeline>li {
     position: relative;
-    margin-bottom: 50px;
-    min-height: 50px;
+    margin-bottom: 20px;
+    min-height: 20px;
 }
 
 .timeline>li:before,
@@ -494,21 +494,21 @@ section h3.section-subheading {
     float: right;
     position: relative;
     width: 100%;
-    padding: 0 20px 0 100px;
+    padding: 0 10px 0 50px;
     text-align: left;
 }
 
 .timeline>li .timeline-panel:before {
     right: auto;
-    left: -15px;
-    border-right-width: 15px;
+    left: -8px;
+    border-right-width: 8px;
     border-left-width: 0;
 }
 
 .timeline>li .timeline-panel:after {
     right: auto;
-    left: -14px;
-    border-right-width: 14px;
+    left: -7px;
+    border-right-width: 7px;
     border-left-width: 0;
 }
 
@@ -519,7 +519,7 @@ section h3.section-subheading {
     width: 35px;
     height: 35px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 2px solid #f1f1f1;
     border-radius: 100%;
     text-align: center;
     color: #fff;
@@ -527,28 +527,28 @@ section h3.section-subheading {
 }
 
 .timeline>li .timeline-image h4 {
-    margin-top: 12px;
+    margin-top: 8px;
     font-size: 10px;
-    line-height: 14px;
+    line-height: 10px;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
-    padding: 0 20px 0 100px;
+    padding: 0 10px 0 50px;
     text-align: left;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
     right: auto;
-    left: -15px;
-    border-right-width: 15px;
+    left: -8px;
+    border-right-width: 8px;
     border-left-width: 0;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:after {
     right: auto;
-    left: -14px;
-    border-right-width: 14px;
+    left: -7px;
+    border-right-width: 7px;
     border-left-width: 0;
 }
 
@@ -576,8 +576,8 @@ section h3.section-subheading {
     }
 
     .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px;
+        margin-bottom: 50px;
+        min-height: 50px;
     }
 
     .timeline>li .timeline-panel {
@@ -589,8 +589,8 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image {
         left: 50%;
-        width: 100px;
-        height: 100px;
+        width: 35px;
+        height: 35px;
         margin-left: -50px;
     }
 
